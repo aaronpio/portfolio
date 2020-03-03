@@ -1,0 +1,41 @@
+@import "../library.scss";
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  font-family: $general-font;
+  color: $font-color;
+
+  img {
+    min-width: 20rem;
+    width: 20rem;
+    height: 26.6666875rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+  }
+
+  h2 {
+    padding-top: 0.7rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+  }
+
+  p {
+    margin: 1rem;
+    width: 45vw;
+    max-width: 41rem;
+    height: 10rem;
+    font-family: $general-font;
+    font-size: 1.2rem;
+    word-break: break-word;
+  }
+}

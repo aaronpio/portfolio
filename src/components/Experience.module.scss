@@ -1,0 +1,8 @@
+@import "../library.scss";
+
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: blueviolet;
+}

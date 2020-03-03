@@ -1,0 +1,50 @@
+@import "../library.scss";
+
+.nav_bar {
+  height: 10rem;
+  //background-color: $nav-color;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: $header-font;
+    color: $font-color;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7.5rem;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h3 {
+    font-family: $header-font;
+    padding: 0;
+    margin: 0;
+    color: $font-color;
+    font-family: $general-font;
+  }
+}
+
+.nav_buttons {
+  background-color: white;
+  height: 2.5rem;
+  font-family: $header-font;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+}
