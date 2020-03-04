@@ -2,19 +2,15 @@
 
 .button {
   margin: 0 auto;
-  //   margin-left: 2rem;
-  //   margin-right: 2rem;
   background: none;
   border: none;
   padding: 0;
-  /*optional*/
+
   color: $font-color;
   font-family: $general-font;
   font-size: 1.25rem;
   font-weight: bold;
   width: 17.5rem;
-  /*input has OS specific font-family*/
-  //color: #069;
 
   cursor: pointer;
 
