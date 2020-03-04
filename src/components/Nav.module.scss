@@ -22,6 +22,14 @@ header {
   align-content: flex-start;
   align-items: flex-start;
   height: 10rem;
+
+  .header_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+    width: 70rem;
+  }
 }
 
 .contact_info {

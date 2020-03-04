@@ -23,7 +23,7 @@ const Nav = ({ buttonNames, screen, changeScreen }) => {
   return (
     <nav className={styles.nav_bar}>
       <header>
-        <div>
+        <div className={styles.header_div}>
           <h1 className={styles.header_text}>Aaron Pio Lang</h1>
         </div>
 
