@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./App.scss";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import Summary from "./components/Summary";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
@@ -45,6 +46,7 @@ const App = () => {
         {screen === "Experience" && <Experience />}
         {screen === "Education" && <Education />}
       </main>
+      {/* <Footer /> */}
     </body>
   );
 };

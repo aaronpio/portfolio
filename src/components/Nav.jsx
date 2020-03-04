@@ -23,11 +23,26 @@ const Nav = ({ buttonNames, screen, changeScreen }) => {
   return (
     <nav className={styles.nav_bar}>
       <header>
-        <h1 className={styles.header_text}>Aaron Pio Lang</h1>
+        <div>
+          <h1 className={styles.header_text}>Aaron Pio Lang</h1>
+        </div>
+
         <div className={styles.contact_info}>
-          <h3>Email</h3>
-          <h3>phone #</h3>
-          <h3>Resume PDF</h3>
+          <div className={styles.contact_text}>
+            <h3>aaronpiolang@gmail.com</h3>
+            <h3>(519) 301-6960</h3>
+            <a href="Aaron Lang Resume.pdf" download>
+              <h3 className={styles.download}>Download Resume (pdf)</h3>
+            </a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/aaron-p-lang/" target="_blank">
+              <img src="LinkedIn-logo-blk.png" alt="linkedin" />
+            </a>
+            <a href="https://github.com/aaronpio" target="_blank">
+              <img src="GitHub-Mark-64px.png" alt="github" />
+            </a>
+          </div>
         </div>
       </header>
       <div className={styles.nav_buttons}>{navButtonComponent}</div>

@@ -1,0 +1,28 @@
+@import "../library.scss";
+
+.footer_bar {
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+
+  border: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+}
+
+.powered_by {
+  display: flex;
+
+  font-family: $general-font;
+  font-size: 1rem;
+
+  img {
+    height: 1rem;
+    width: 1rem;
+  }
+}
