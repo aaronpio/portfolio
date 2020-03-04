@@ -34,11 +34,11 @@ header {
       font-size: 1.5rem;
       font-style: italic;
       font-family: $header-font;
-      color: gray;
+      color: $blue-gray;
       margin: 0 auto;
-      margin-left: 1rem;
-      margin-top: 3.75rem;
-      padding: 0;
+      margin-left: 0rem;
+      margin-top: 2.75rem;
+      padding: 1rem;
     }
   }
 }
@@ -66,7 +66,7 @@ header {
       margin: 0 auto;
       margin-left: 1rem;
       margin-right: 1rem;
-      color: gray;
+      color: $blue-gray;
       font-family: $general-font;
     }
   }
@@ -74,13 +74,13 @@ header {
   img {
     height: 2.5rem;
     width: 2.5em;
-    opacity: 30%;
+    opacity: 37.5%;
     margin-right: 1rem;
     margin-left: 1rem;
     text-decoration: none;
 
     &:hover {
-      opacity: 60%;
+      opacity: 65%;
       // border-bottom: solid $orange;
       // border-width: 2px;
     }

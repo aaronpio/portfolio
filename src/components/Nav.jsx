@@ -25,7 +25,7 @@ const Nav = ({ buttonNames, screen, changeScreen }) => {
       <header>
         <div className={styles.header_div}>
           <h1 className={styles.header_text}>Aaron Pio Lang</h1>
-          <h2>Full Stack Web Developer</h2>
+          {/* <h2>Full Stack Web Developer</h2> */}
         </div>
 
         <div className={styles.contact_info}>
