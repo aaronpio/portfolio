@@ -22,6 +22,18 @@ const Summary = props => {
             knowledge and skills as a full stack web developer.
           </p>
         </div>
+        <div>
+          <h2>Favourite Stack (currently)</h2>
+          <p>
+            My current favourite tech stack is composed of a single page React
+            front-end with a Node and Express decoupled back-end. In my final
+            project at Lighthouse Labs, I used this stack to develop a dynamic
+            matchmaking dating application called ‘ThirdWheel’, which intended
+            to gamify the role of the matchmaker. Next on my programming study
+            to-do list is to dive deeper into the React Library, as well as to
+            explore the Python and Django back-end.
+          </p>
+        </div>
       </div>
       <div></div>
     </article>
