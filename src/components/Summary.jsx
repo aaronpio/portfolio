@@ -31,6 +31,15 @@ const Summary = props => {
             Library, as well as to explore the Python and Django back-end.
           </p>
         </div>
+        <div className={styles.stack_content_box}>
+          <h2>Favourite blah blah</h2>
+          <p>
+            tester teser favourite tech stack is composed of a single page React
+            front-end with a Node and Express decoupled back-end. Next on my
+            programming study to-do list is to dive deeper into the React
+            Library, as well as to explore the Python and Django back-end.
+          </p>
+        </div>
       </div>
       <div></div>
     </article>

@@ -77,6 +77,7 @@ header {
     opacity: 38%;
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 0.5rem;
     text-decoration: none;
 
     &:hover {
@@ -106,5 +107,30 @@ header {
     border-bottom: solid $orange;
     border-width: 2px;
     cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .contact_info {
+    .contact_text {
+      flex-direction: column;
+    }
+
+    img {
+      height: 2rem;
+      width: 2em;
+      margin-top: 1rem;
+      text-decoration: none;
+    }
+  }
+
+  header {
+    .header_div {
+      h1 {
+        font-size: 2.75rem;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+      }
+    }
   }
 }
