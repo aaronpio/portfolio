@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Experience.module.scss";
 
-const Experience = props => {
+const Experience: React.FC = () => {
   // const [fade, setFade] = useState(null);
 
   // useEffect(() => {

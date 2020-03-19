@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Education.module.scss";
 
-const Education = () => {
+const Education: React.FC = () => {
   return <>Education</>;
 };
 

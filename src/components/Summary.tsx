@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Summary.module.scss";
 
-const Summary = props => {
+const Summary: React.FC = () => {
   return (
     <article className={styles.article}>
       <div className={styles.profile}>
